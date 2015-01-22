@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="160" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="btnBekijk" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblArtiest" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblTitel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="txtArtiest" pref="192" max="32767" attributes="0"/>
+                          <Component id="txtTitel" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblLabels" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblTijd" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblGenres" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblBpm" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="txtBpm" pref="192" max="32767" attributes="0"/>
+                              <Component id="txtGenres" max="32767" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Component id="txtMin" min="-2" pref="30" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="lblMin" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txtSec" min="-2" pref="30" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="lblSec" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="126" max="-2" attributes="0"/>
+                                  <Component id="btnReset" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="txtLabels" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="txtCd" min="-2" pref="120" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnZoekCd" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="btnZoek" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="lblCd" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblTitel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtTitel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblArtiest" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtArtiest" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblBpm" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtBpm" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblGenres" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtGenres" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblLabels" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtLabels" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblTijd" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtMin" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblMin" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtSec" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblSec" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblCd" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtCd" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnZoekCd" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btnReset" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="btnZoek" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="btnBekijk" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jScrollPane1" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="lstNummers">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="lblTitel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Titel: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTitel">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblArtiest">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Artiest:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtArtiest">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblBpm">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="BPM: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtBpm">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblGenres">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Genres: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtGenres">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblLabels">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Labels: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtLabels">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTijd">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tijd: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMin">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMin">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="min"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtSec">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSec">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="sec"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnBekijk">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bekijk"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBekijkActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnZoek">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Zoek"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnZoekActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCd">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cd: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCd">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnZoekCd">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="zoekCd"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnZoekCdActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnReset">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="reset"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnResetActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
