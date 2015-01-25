@@ -39,14 +39,7 @@
                             }
                             else
                             {
-                                for (Doos d : dozen)
-                                {
-                                    if (d.getId() != doos.getId())
-                                    {
-                                        out.println("<option value='" + d.getId() + "'>Doos " + d.getNummer() + "</option>");
-                                    }
-
-                                }
+                                out.println("<option value='" + doos.getId() + "'>Doos " + doos.getNummer() + "</option>");
                             }
                             
 

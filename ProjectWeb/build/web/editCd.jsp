@@ -43,6 +43,7 @@ int id = Integer.parseInt(ids);
                             }
                             else
                             {
+                                out.println("<option value='" + doos.getId() + "'>Doos " + doos.getNummer() + "</option>");
                                 for (Doos d : dozen)
                                 {
                                     if (d.getId() != doos.getId())
