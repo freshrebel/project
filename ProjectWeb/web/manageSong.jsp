@@ -62,30 +62,30 @@
             <table>
                 <tr>
                     <td><label for="titel">titel:</label></td>
-                    <td><input type="text" name="titel" id="titel" /></td>
+                    <td><input type="text" name="titel" id="titel" value="<%=titel%>" /></td>
                 </tr>
                 <tr>
                     <td><label for="artiest">artiest:</label></td>
-                    <td><input type="text" name="artiest" id="artiest" /></td>
+                    <td><input type="text" name="artiest" id="artiest" value="<%=artiest%>" /></td>
                 </tr>
                 <tr>
                     <td><label>tijd:</label></td>
                     <td>
-                        <input type="number" name="minuten" id="minuten" style="width:3em;"/>min
-                        <input type="number" name="seconden" id="seconden" style="width:3em;"/>sec
+                        <input type="number" name="minuten" id="minuten" value="<%=minuten%>" style="width:3em;"/>min
+                        <input type="number" name="seconden" id="seconden" value="<%=seconden%>" style="width:3em;"/>sec
                     </td>
                 </tr>
                 <tr>
                     <td><label for="bpm">bpm:</label></td>
-                    <td><input type="number" name="bpm" id="bpm" /></td>
+                    <td><input type="number" name="bpm" id="bpm" value="<%=bpm%>" /></td>
                 </tr>
                 <tr>
                     <td><label for="genres">genres:</label></td>
-                    <td><input type="text" name="genres" id="genres" /></td>
+                    <td><input type="text" name="genres" id="genres" value="<%=genres%>" /></td>
                 </tr>
                 <tr>
                     <td><label for="labels">labels:</label></td>
-                    <td><input type="text" name="labels" id="labels" /></td>
+                    <td><input type="text" name="labels" id="labels" value="<%=labels%>" /></td>
                 </tr>
                 <tr>
                     <td><label for="cd">cd:</label></td>

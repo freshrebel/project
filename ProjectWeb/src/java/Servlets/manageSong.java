@@ -36,6 +36,18 @@ public class manageSong extends HttpServlet
             request.getSession().setAttribute("id", request.getParameter("nummer"));
             response.sendRedirect("watchSong.jsp");
         }
+        if (request.getParameter("actie").equals("zoek"))
+        {
+            request.getSession().setAttribute("titel", request.getParameter("titel"));
+            request.getSession().setAttribute("artiest", request.getParameter("artiest"));
+            request.getSession().setAttribute("minuten", request.getParameter("minuten"));
+            request.getSession().setAttribute("seconden", request.getParameter("seconden"));
+            request.getSession().setAttribute("bpm", request.getParameter("bpm"));
+            request.getSession().setAttribute("genres", request.getParameter("genres"));
+            request.getSession().setAttribute("labels", request.getParameter("labels"));
+            request.getSession().setAttribute("cd", request.getParameter("cd"));
+            response.sendRedirect("manageSong.jsp");
+        }
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
