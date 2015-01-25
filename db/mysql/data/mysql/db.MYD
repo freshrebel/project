@@ -10,3 +10,6 @@ Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)
 2015-01-15 13:32:26 7408 [Note] Event Scheduler: Loaded 0 events
 2015-01-15 13:32:26 7408 [Note] C:\Users\Arno\Desktop\webserver/mysql/bin/mysqld_usbwv8.exe: ready for connections.
 Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)
+2015-01-25 13:52:45 8072 [Note] Event Scheduler: Loaded 0 events
+2015-01-25 13:52:45 8072 [Note] C:\Users\Arno\Documents\GitHub\project\db/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)
