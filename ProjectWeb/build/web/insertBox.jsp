@@ -8,12 +8,18 @@
         for (int i = 1; i < (lijst.size() + 2); i++)
         {
             nummer = i;
+            loop:
             for (Doos d : lijst)
             {
                 if (nummer == d.getNummer())
                 {
                     nummer = 0;
+                    break loop;
                 }
+            }
+            if (nummer != 0)
+            {
+                break;
             }
         }
     %>
